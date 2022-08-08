@@ -1,0 +1,3 @@
+/home/cosmin/projects/flappyBird/build/CMakeFiles/bird.dir
+/home/cosmin/projects/flappyBird/build/CMakeFiles/edit_cache.dir
+/home/cosmin/projects/flappyBird/build/CMakeFiles/rebuild_cache.dir

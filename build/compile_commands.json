@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/cosmin/projects/flappyBird/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/bird.dir/src/main.cpp.o -c /home/cosmin/projects/flappyBird/src/main.cpp",
+  "file": "/home/cosmin/projects/flappyBird/src/main.cpp"
+}
+]
