@@ -1,4 +1,3 @@
-#define SFML_STATIC
 #include <bits/stdc++.h>
 #include <SFML/Graphics.hpp>
 #include "player.hpp"
