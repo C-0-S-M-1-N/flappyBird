@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/bird.dir/src/main.cpp.o -o bird  -lsfml-system -lsfml-audio -lsfml-graphics -lsfml-window 

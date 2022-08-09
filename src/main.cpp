@@ -1,6 +1,6 @@
 #define SFML_STATIC
 #include <bits/stdc++.h>
-#include "SFML/Graphics.hpp"
+#include <SFML/Graphics.hpp>
 #include "player.hpp"
 #define MIN 80
 #define MAX win.getSize().y-80*4
@@ -48,17 +48,17 @@ auto main() -> int{
 	sf::Clock c;
 	sf::Time time;
 
-	b.loadFromFile("../src/sprite.png", sf::IntRect(0, 0, 128, 256));
+	b.loadFromFile("src/sprite.png", sf::IntRect(0, 0, 128, 256));
 	bkg.setTexture(b);
 	bkg.setScale(4, 3);
 	
-	t.loadFromFile("../src/sprite.png", sf::IntRect(0, 490, 24, 24));
-	ti.loadFromFile("../src/sprite.png", sf::IntRect(24, 490, 24, 24));
-	td.loadFromFile("../src/sprite.png", sf::IntRect(56, 490, 24, 24));
-	pipeD.loadFromFile("../src/sprite.png", sf::IntRect(55, 325, 30, 160));
-	pipeU.loadFromFile("../src/sprite.png", sf::IntRect(82, 323, 30, 160));
+	t.loadFromFile("src/sprite.png", sf::IntRect(0, 490, 24, 24));
+	ti.loadFromFile("src/sprite.png", sf::IntRect(24, 490, 24, 24));
+	td.loadFromFile("src/sprite.png", sf::IntRect(56, 490, 24, 24));
+	pipeD.loadFromFile("src/sprite.png", sf::IntRect(55, 325, 30, 160));
+	pipeU.loadFromFile("src/sprite.png", sf::IntRect(82, 323, 30, 160));
 
-	font.loadFromFile("../src/font.ttf");
+	font.loadFromFile("src/font.ttf");
 	sf::Text scoreText;
 	scoreText.setFont(font);
 	scoreText.setString(std::to_string(score));
